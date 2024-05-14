@@ -16,19 +16,31 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="./style.css">
     </head>
 
     <body>
         <header>
-            <h1>Atlas</h1>
+            <h1>Atlas světa</h1>
         </header>
         <main class="container-fluid">
+            <div class="form-group">
+                <label for="selContinent">Vyber kontinent:</label>
+                <select class="form-control" id="selContinent">
+                  <option value="europe">Evropa</option>
+                  <option value="africa">Afrika</option>
+                  <option value="asia">Asie</option>
+                  <option value="oceania">Oceanie</option>
+                  <option value="americas">Amerika</option>
+                </select>
+              </div>
             <div class="row" id="staty">
-                
+
             </div>
         </main>
+
         <footer>
-            
+            <p>&copy; 2024 - Miroslav Lubeník | IT2</p>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
@@ -42,6 +54,8 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+
         <script src="atlas.js"></script>
+        
     </body>
 </html>
