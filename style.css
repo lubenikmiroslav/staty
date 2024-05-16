@@ -134,7 +134,7 @@ label{
     align-items: center;
 }
 body::-webkit-scrollbar {
-    width: 10px;
+    width: 100px;
 }
 
 body::-webkit-scrollbar-track {
