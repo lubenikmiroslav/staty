@@ -149,3 +149,23 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
     background: #00ff15;
 }
+
+body {
+    cursor: url('cursor.png'), auto;
+}
+a, button, input[type="button"], input[type="submit"], input[type="reset"], input[type="file"], select, textarea, label, .clickable, input[type="range"] {
+    cursor: url('select.png'), pointer;
+}
+#toggle-music {
+    cursor: url('select.png'), pointer;
+}
+
+/* Explicitní nastavení kurzoru pro různé stavy posuvníku */
+input[type="range"], input[type="range"]:hover, input[type="range"]:active, input[type="range"]:focus {
+    cursor: url('select.png'), pointer;
+}
+
+/* Nastavení kurzoru pro celý element music-controls */
+#music-controls {
+    cursor: url('select.png'), pointer;
+}
